@@ -12,6 +12,12 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+IMPORTANT -
+
+To avoid CORS and other forbidden API Server Errors. Simply run the http://localhost:3000 link in Chrome Dev Tools.\
+To Achieve that, Open Run from start and type this: chrome.exe --user-data-dir="C:/Chrome dev session" --disable-web-security \
+A dev session browser will open which will run the application locally without any API server issues.
+
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
